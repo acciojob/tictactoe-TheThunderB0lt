@@ -1,1 +1,40 @@
-/*  your css code here. If applicable */
+.container{
+	display : flex;
+	flex-direction : column;
+	align-items : center;
+	gap : 15px;
+}
+h1{font-family: cursive;}
+.show{
+	display : flex;
+}
+.hide{
+	display : none;
+}
+form{
+	flex-direction : column;
+	gap : 12px;
+}
+.grid{
+	border : 1px solid black;
+	background-color : #ffb3b3;
+	font-family: cursive;
+	text-align : center;
+	font-size : 45px
+}
+.model{
+	flex-direction : column;
+	align-items : center;
+	gap : 20px;
+}
+.message{
+	font-family: "Gill Sans Extrabold", sans-serif;
+	font-size : 1.2rem;;
+}
+
+.grid-container{
+	display : grid;
+	grid-template-columns: repeat(3, 70px); 
+	grid-template-rows: repeat(3, 70px);
+	border : 1px solid black;	
+}
